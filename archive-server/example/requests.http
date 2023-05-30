@@ -1,0 +1,21 @@
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "nicolas.stephan",
+    "password": "fleur123"
+}
+
+###
+
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "username": "nicolas.stephan",
+    "password": "fleur123"
+}
+
+###
+
+GET http://localhost:4000/secret
